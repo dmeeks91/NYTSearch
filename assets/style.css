@@ -1,0 +1,44 @@
+
+.btn {
+    padding: 12px;
+}
+
+.col-md-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 40px;
+}
+
+.panel {
+    margin-bottom: 0px;
+}
+
+.panel-default>.panel-heading {
+    background-color: rgb(1, 1, 95);
+    color: white;
+    font-size: 18px;
+}
+
+#title {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    background-color: rgb(1, 1, 95);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 28px;
+    color: rgb(1, 1, 95);
+}
+
+.content {
+    font-size: 16px;
+}
+
+.url {
+    color: rgb(6, 156, 141);
+    font-weight: 550;
+}
