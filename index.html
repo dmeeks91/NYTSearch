@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/style.css">
     <title>New York Times Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -25,7 +26,7 @@
                             <form>
                                 <div class="form-group">
                                     <label for="searchTerm">Search Term</label>
-                                    <input type="email" class="form-control" id="searchTerm">
+                                    <input type="text" class="form-control" id="searchTerm">
                                 </div>
                                 <div class="form-group">
                                     <label for="numberRecords">Number of Records to Retrieve</label>
@@ -44,11 +45,11 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="startYear">Start Year (Optional)</label>
-                                    <input type="password" class="form-control" id="startYear">
+                                    <input type="text" class="form-control" id="startYear">
                                 </div>
                                 <div class="form-group">
                                     <label for="endYear">End Year (Optional)</label>
-                                    <input type="password" class="form-control" id="endYear">
+                                    <input type="text" class="form-control" id="endYear">
                                 </div>
                                 
                                 <button type="submit" class="btn btn-primary" id="search">
@@ -70,23 +71,15 @@
                 <div class="panel panel-default">
                     <div class="panel-heading panel-header-text"><i class="fas fa-th"></i> Top Articles</div>
                         <div class="panel-body panel-text">
-                            <div class="articles">
-                                <div class="title">Test Article Title</div>
-                            <div class="content">
-                                <div class="author">A very good writer</div>
-                                <div class="date">1976</div>
-                            </div>
-                            <a href="www.nytimes.com" class ="url">www.nytimes.com</a>
-                            
-
+                            <div class="articles" id='articleHeader'>
+                                <!-- dynamically add articles -->
                             </div>
                         </div>
                 </div>
             </div>
         </div>
 
-</div>
-    
+</div>    
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

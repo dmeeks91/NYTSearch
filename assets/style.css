@@ -42,3 +42,22 @@
     color: rgb(6, 156, 141);
     font-weight: 550;
 }
+
+.articleRow {
+    margin: auto;
+    width: 95%;
+    padding: 2%;
+    border-bottom: 1px solid grey;
+}
+.date{
+    font-style: italic;
+    font-size: 90%;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 105%;
+}
+.subSect{
+    margin-left: 2%;
+}
